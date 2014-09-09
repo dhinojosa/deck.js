@@ -1,3 +1,9 @@
+@charset "UTF-8";
+@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Permanent+Marker);
+@import url(http://fonts.googleapis.com/css?family=Rokkitt);
+
 body {
   font-size: 18pt;
 }
@@ -22,4 +28,47 @@ pre {
 
 .deck-container > .slide {
   page-break-after: always;
+}
+
+.mono-red {
+  font-family: 'Source Code Pro', monospace, sans-serif;
+  color: red
+}
+
+.mono-bold {
+  font-family: 'Source Code Pro', monospace, sans-serif;
+  font-weight: bold;
+}
+
+.mono-bold-red {
+  font-family: 'Source Code Pro', monospace, sans-serif;
+  color: red;
+  font-weight: bold;
+}
+
+.mono-bold-green {
+  font-family: 'Source Code Pro', monospace, sans-serif;
+  color: green;
+  font-weight: bold;
+}
+
+.mono-bold-blue {
+  font-family: 'Source Code Pro', monospace, sans-serif;
+  color: blue;
+  font-weight: bold;
+}
+
+.permanent-marker-red {
+  font-family: 'Permanent Marker', sans-serif;
+  color: red
+}
+.todotoday {
+  position: relative;
+}
+
+.line1 {
+  font-family: 'Permanent Marker', sans-serif;
+  position: absolute;
+  left: 200px;
+  top: 190px;
 }
