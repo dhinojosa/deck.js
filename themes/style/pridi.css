@@ -4,6 +4,9 @@
 @import url(http://fonts.googleapis.com/css?family=Permanent+Marker);
 @import url(http://fonts.googleapis.com/css?family=Rokkitt);
 @import url(http://fonts.googleapis.com/css?family=Ribeye+Marrow);
+@import url(http://fonts.googleapis.com/css?family=Montserrat);
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+@import url(http://fonts.googleapis.com/css?family=Pridi);
 
 /* Resets and base styles from HTML5 Boilerplate */
 div, span, object, iframe,
@@ -49,6 +52,12 @@ mark {
   font-weight: bold;
 }
 
+td.tableblock {
+  padding: 5px;
+  border: 1px solid black;
+}
+
+
 del {
   text-decoration: line-through;
 }
@@ -56,11 +65,6 @@ del {
 abbr[title], dfn[title] {
   border-bottom: 1px dotted;
   cursor: help;
-}
-
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
 }
 
 hr {
@@ -289,24 +293,28 @@ li > ol, li > ul {
   font-size: 16px;
   line-height: 1.25;
   color: #444;
+  text-shadow: rgba(0,0,0,.01) 0 0 1px;
 }
 
 .slide {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   width: 100%;
+  text-shadow: rgba(0,0,0,.01) 0 0 1px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Open Sans", Constantia, Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  font-family: "Pridi", Constantia, Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif;
 }
 
 h1 {
-  color: #9C2A00;
+  /*color: #08455f;*/
+  color: #000; 
 }
 
 h2 {
-  color: #0b7495;
+  /*color: #0b7495;*/
+  color: #000;
   border-bottom: 0;
 }
 .cssreflections h2 {
@@ -316,7 +324,7 @@ h2 {
 }
 
 h3 {
-  color: #D6BF86;
+  color: #000;
 }
 
 pre {
@@ -365,7 +373,7 @@ code {
 }
 
 blockquote {
-  font-family: "Rokkitt", "Hoefler Text", Constantia, Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  font-family: "Open Sans", "Hoefler Text", Constantia, Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif;
   font-size: 2em;
   padding: 1em 2em .5em 2em;
   color: #000;
@@ -436,21 +444,21 @@ a:hover, a:focus {
 }
 
 .deck-container {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  font-family: "Open Sans", "Gill Sans MT", Calibri, sans-serif;
   font-size: 1.75em;
-  background: #fffbdo;
+  background: #fff;
   /* Old browsers */
-  background: -moz-linear-gradient(top, #fff 0%, #FFFBD0 100%);
+  background: -moz-linear-gradient(top, #fff 0%, #F6F9F9 100%);
   /* FF3.6+ */
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fff), color-stop(100%, #FFFBD0));
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fff), color-stop(100%, #F6F9F9));
   /* Chrome,Safari4+ */
-  background: -webkit-linear-gradient(top, #fffbd0 0%, #ccf0f0 100%);
+  background: -webkit-linear-gradient(top, #fff 0%, #F6F9F9 100%);
   /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(top, #fffbd0 0%, #ccf0f0 100%);
+  background: -o-linear-gradient(top, #fff 0%, #ccf0f0 100%);
   /* Opera11.10+ */
-  background: -ms-linear-gradient(top, #fffdb0 0%, #ccf0f0 100%);
+  background: -ms-linear-gradient(top, #fff 0%, #ccf0f0 100%);
   /* IE10+ */
-  background: linear-gradient(top, #fffbd0 0%, #ccf0f0 100%);
+  background: linear-gradient(top, #fff 0%, #ccf0f0 100%);
   /* W3C */
   background-attachment: fixed;
   text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
