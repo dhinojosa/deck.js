@@ -572,4 +572,14 @@ a:hover, a:focus {
    left: 10%;
    font-size: 4em;
 }
+
+.slide_section h2::before {
+   background-size: 100px 100px;
+   display: inline-block;
+   width: 100px;
+   height: 100px;
+   margin-right: 40px;
+   content:"";
+   background-image: url(https://wiki.jenkins.io/download/attachments/2916393/headshot.png)
+}
 </style>

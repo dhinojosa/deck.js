@@ -8,7 +8,11 @@
 @import url(http://fonts.googleapis.com/css?family=Droid+Sans);
 @import url(http://fonts.googleapis.com/css?family=Pridi);
 @import url(http://fonts.googleapis.com/css?family=Roboto);
+@import url(http://fonts.googleapis.com/css?family=Kanit);
+@import url(http://fonts.googleapis.com/css?family=Prompt);
 @import url(http://fonts.googleapis.com/css?family=PT+Serif);
+@import url(http://fonts.googleapis.com/css?family=Merienda);
+@import url(http://fonts.googleapis.com/css?family=Lato);
 
 /* Resets and base styles from HTML5 Boilerplate */
 div, span, object, iframe,
@@ -381,7 +385,7 @@ code {
 }
 
 blockquote {
-   font-family: "PT Serif", Constantia, Palatino, "Palatino Linotype", "Book Antiqua", Georgia, serif;
+   font-family: "Lato", serif;
    font-size: 2em;
    padding: 1em 2em .5em 2em;
    color: #000;
@@ -452,8 +456,8 @@ a:hover, a:focus {
 }
 
 .deck-container {
-   font-family: "Open Sans", "Gill Sans MT", Calibri, sans-serif;
-   font-size: 1.75em;
+   font-family: "Lato", sans-serif;
+   font-size: 2em;
    background: #fff;
    /* Old browsers */
    background: -moz-linear-gradient(top, #fff 0%, #F6F9F9 100%);
@@ -572,4 +576,15 @@ a:hover, a:focus {
    left: 10%;
    font-size: 4em;
 }
+
+.slide_section h2::before {
+   background-size: 100px 100px;
+   display: inline-block;
+   width: 100px;
+   height: 100px;
+   margin-right: 40px;
+   content:"";
+   background-image: url(https://solidsoft.files.wordpress.com/2016/02/rx_logo_512.png)
+}
+
 </style>
