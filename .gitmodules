@@ -1,0 +1,3 @@
+[submodule "extensions/deck.split.js"]
+	path = extensions/deck.split.js
+	url = git@github.com:houqp/deck.split.js.git
