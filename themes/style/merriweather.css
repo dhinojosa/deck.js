@@ -581,7 +581,7 @@ a:hover, a:focus {
    display: inline-block;
    width: 100px;
    height: 100px;
-   margin-right: 40px;
+   /*margin-right: 40px;*/
    content:"";
 }
 </style>
