@@ -584,4 +584,8 @@ a:hover, a:focus {
    /*margin-right: 40px;*/
    content:"";
 }
+
+.small {
+   font-size: x-small;
+}
 </style>
