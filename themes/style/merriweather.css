@@ -572,7 +572,7 @@ a:hover, a:focus {
    color: black;
    position: fixed;
    top: 30%;
-   left: 10%;
+   /*left: 10%; */
    font-size: 4em;
 }
 
